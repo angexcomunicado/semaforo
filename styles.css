@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+#verde {
+    width: 2rem;
+    height: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 50%;
+    background-color: green;
+    transition: background-color 0.5s ease;
+}
+
+#rojo {
+    width: 2rem;
+    height: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 50%;
+    background-color: red;
+    transition: background-color 0.5s ease;
+}
+
+#amarillo {
+    width: 2rem;
+    height: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 50%;
+    background-color: yellow;
+    transition: background-color 0.5s ease;
+}
+
+.boton {
+    margin: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    font-size: 1.2rem;
+}
+
+.boton:hover {
+    background-color: hotpink;
+}
